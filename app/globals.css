@@ -29,3 +29,7 @@ p, a {
 a {
   @apply hover:text-black;
 }
+
+.active-link {
+  @apply text-black flex flex-col justify-center items-center gap-2 after:content-[''] after:w-2.5 after:h-0.5 after:bg-black;
+}
