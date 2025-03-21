@@ -5,23 +5,27 @@
   src: url('../src/assets/fonts/departure-mono.otf') format('opentype');
   font-weight: 500;
 }
-
-:root {
-  --background: #000;
-  --title: #FFF;
-  --text: #AAA;
+@theme {
+  --font-display: 'Departure Mono', monospace;
+  --color-white: #FFF;
+  --color-black: #000;
+  --color-gray: #AAA;
 }
 
 body {
-  font-family: 'Departure Mono', monospace;
+  font-family: var(--font-display);
   font-weight: normal;
   text-transform: uppercase;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--title);
+  @apply text-black;
 }
 
-p {
-  color: var(--text);
+p, a {
+  @apply text-gray;
+}
+
+a {
+  @apply hover:text-black;
 }
