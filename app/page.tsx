@@ -83,12 +83,8 @@ export default function Home () {
             ref={linksRef}
             className="flex justify-center items-center gap-12 opacity-0"
           >
-            <a href="/vinyl" className="text-gray-400">
-              Vinyl
-            </a>
-            <a href="/cd" className="text-gray-400">
-              CD
-            </a>
+            <a href="/vinyl">Vinyl</a>
+            <a href="/cd">CD</a>
           </div>
         </>
       ) }
