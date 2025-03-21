@@ -1,0 +1,35 @@
+[
+  {
+    "title": "JVLIVS Prequel : Giulio",
+    "artist": "SCH",
+    "image": "/albums/prequel.jpg"
+  }, {
+    "title": "JVLIVS III : AD Finem (Jour d'octobre)",
+    "artist": "SCH",
+    "image": "/albums/ad-finem-octobre.jpg"
+  }, {
+    "title": "JVLIVS III : AD Finem (Ego sum)",
+    "artist": "SCH",
+    "image": "/albums/ad-finem-ego-sum.jpg"
+  }, {
+    "title": "JVLIVS III : AD Finem",
+    "artist": "SCH",
+    "image": "/albums/ad-finem.jpg"
+  }, {
+    "title": "Essonne History X",
+    "artist": "Ziak",
+    "image": "/albums/ehx.jpg"
+  }, {
+    "title": "WATERGATE",
+    "artist": "ZEU",
+    "image": "/albums/watergate.jpg"
+  }, {
+    "title": "WATERGATE: SCANDAL",
+    "artist": "ZEU",
+    "image": "/albums/watergate-scandal.jpg"
+  }, {
+    "title": "BOSS'S ORDER",
+    "artist": "ZEU",
+    "image": "/albums/boss-order.jpg"
+  }
+]
